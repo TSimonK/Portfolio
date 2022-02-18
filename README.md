@@ -106,6 +106,8 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 The following screenshots shot shows an example of the elk install playbook should it need to be recreated.
 
+![Project 1](https://user-images.githubusercontent.com/90885061/154743255-58cb65a1-2875-41a4-af42-e720bd7e71fd.PNG)
+
  
 
 Should you need to completely recreate the elk stack installation playbook it is best to run:
@@ -115,7 +117,8 @@ This will output a template for the elk installation process and simply use nano
 
 The following screenshots shot shows an example of the filebeats playbook should it need to be recreated.
 
- 
+ ![filebeat](https://user-images.githubusercontent.com/90885061/154743295-83be8900-e390-40cd-a30d-507e1e79c28a.PNG)
+
 
 Should you need to completely recreate the filebeat installation playbook it is best to run:
 curl https://utah.bootcampcontent.com/utah-coding-bootcamp/UofU-VIRT-CYBER-PT-10-2021-U-LOL/-/blob/main/13-Elk-Stack-Project/Activities/Stu_Day_2/Unsolved/Resources/filebeat-playbook.yml > /etc/ansible/roles/filebeat-playbook.yml
@@ -124,7 +127,8 @@ Alter this file with nano to fill in the blanks. (please note the curl command t
 
 The following screenshot shows an example of the metricbeat playbook should it need to be recreated with out current setup.
 
- 
+ ![Metricbeats](https://user-images.githubusercontent.com/90885061/154743304-8f8733a9-6e49-43ac-a4ac-3466c28dcddb.PNG)
+
 
 
 Should you need to completely recreate the filebeat installation playbook it is best to run:
